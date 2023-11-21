@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>404 Error Page</title>
+  <style>
+    body {
+      background-color: #183861;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .error-container {
+      display: flex;
+      flex-direction: column; /* Stack the elements vertically */
+      justify-content: center;
+      align-items: right;
+      height: 100vh;
+    }
+
+    .error-text {
+      font-size: 120px;
+      background-color: #FFFFFF;
+      padding: 50px; /* Increase padding to make the white space larger */
+      border-radius: 10px;
+      font-weight: bold;
+      display: inline;
+      text-align: center; /* Center the text within the white space */
+    }
+
+    .error-message {
+      font-size: 24px;
+      color: black; /* Set text color for the message */
+      margin-top: 10px; /* Add margin to separate the numbers and the message */
+    }
+
+    .error-text span {
+      margin:  1px; /* Reduce the space between the numbers */
+    }
+
+    .error-text span:nth-child(1) {
+      color: #183861;
+    }
+
+    .error-text span:nth-child(2) {
+      color: #3bb44a;
+    }
+
+    .error-text span:nth-child(3) {
+      color: #183861;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-text">
+      <span>4</span>
+      <span>0</span>
+      <span>4</span>
+      <div class="error-message">
+        THE PAGE YOU REQUESTED FOR COULD NOT BE FOUND
+      </div>
+    </div>
+  </div>
+</body>
+</html>
